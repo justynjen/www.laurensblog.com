@@ -1,0 +1,78 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+img{
+  max-width:100%;
+}
+body{
+  /*Font Family for entire webpage*/
+ overflow-x: hidden;
+ line-height: 1.5;
+}
+section{
+  position: relative;
+}
+a{
+  text-decoration: none; /*Removes underline from anchor links*/
+  color: black;
+}
+h1, h2, h3, h4, h5, h6{
+
+}
+/*Header styles will go here*/
+/*Header media queries*/
+h1{
+  text-align: center;
+}
+.social{
+  margin: 1%;
+  padding: 2%;
+}
+.menu{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 0;
+  font-family:'josefin slab';
+  font-weight: bold;
+  align-content: space-between;
+  margin: 2rem auto;
+  text-transform: uppercase;
+}
+#hero{
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-image: url('images/beach.jpeg');
+}
+
+/*Section 1*/
+h5{
+  font-size: 30px;
+}
+h6{
+  font-size: 25px;
+}
+.text-center{
+  text-align: center;
+  background-color:rgba(242, 244, 241, 0.47);
+  padding: 20px;
+  position: relative;
+}
+.promo-image{
+  position: relative;
+  width: 100%;
+}
+/*Section 1 media queries*/
+
+/*Section 2*/
+/*Section 2 Queries*/
+
+/*Section 3*/
+/*Section 3 Queries*/
+
+/*footer styles*/
+/*footer media queries*/
